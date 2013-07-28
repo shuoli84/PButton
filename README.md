@@ -23,5 +23,8 @@ Button which able to have different visual effects for different state, inner sh
             [PEffect gradientColor:@[[UIColor redColor], [UIColor blueColor]] locations:nil startPoint:CGPointMake(0, 0) endPoint:CGPointMake(0, 30)],
         ]];
 ```
-Will create a button like this:
+Will create a button like the upper one:
+
 ![example.png](example.png)
+
+Delete the [PEffect halfHighnlight], it will create the latter example button.
