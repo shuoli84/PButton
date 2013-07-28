@@ -24,6 +24,9 @@
 		9CE2A22817A1227000D317D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE2A20017A1226F00D317D1 /* Foundation.framework */; };
 		9CE2A23017A1227000D317D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CE2A22E17A1227000D317D1 /* InfoPlist.strings */; };
 		9CE2A23317A1227000D317D1 /* PButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE2A23217A1227000D317D1 /* PButtonTests.m */; };
+		9CE2A23E17A1229A00D317D1 /* PButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE2A23D17A1229A00D317D1 /* PButton.m */; };
+		BE48EBACE0E91D6B64A4D0EA /* PEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = BE48E16083279D04FE0618DC /* PEffect.m */; };
+		BE48EBD7CFB74BFE5213A0E2 /* PPath.m in Sources */ = {isa = PBXBuildFile; fileRef = BE48E93842BACE838C368386 /* PPath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,12 @@
 		9CE2A22F17A1227000D317D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9CE2A23117A1227000D317D1 /* PButtonTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PButtonTests.h; sourceTree = "<group>"; };
 		9CE2A23217A1227000D317D1 /* PButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PButtonTests.m; sourceTree = "<group>"; };
+		9CE2A23C17A1229A00D317D1 /* PButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PButton.h; sourceTree = SOURCE_ROOT; };
+		9CE2A23D17A1229A00D317D1 /* PButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PButton.m; sourceTree = SOURCE_ROOT; };
+		BE48E16083279D04FE0618DC /* PEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PEffect.m; sourceTree = SOURCE_ROOT; };
+		BE48E227A915D666F7D40B37 /* PEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PEffect.h; sourceTree = SOURCE_ROOT; };
+		BE48E93842BACE838C368386 /* PPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPath.m; sourceTree = SOURCE_ROOT; };
+		BE48EB01BBF7EA81D686E4B7 /* PPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPath.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +128,8 @@
 		9CE2A20417A1226F00D317D1 /* PButton */ = {
 			isa = PBXGroup;
 			children = (
+				9CE2A23C17A1229A00D317D1 /* PButton.h */,
+				9CE2A23D17A1229A00D317D1 /* PButton.m */,
 				9CE2A20D17A1227000D317D1 /* AppDelegate.h */,
 				9CE2A20E17A1227000D317D1 /* AppDelegate.m */,
 				9CE2A21617A1227000D317D1 /* MainStoryboard_iPhone.storyboard */,
@@ -126,6 +137,10 @@
 				9CE2A21C17A1227000D317D1 /* ViewController.h */,
 				9CE2A21D17A1227000D317D1 /* ViewController.m */,
 				9CE2A20517A1226F00D317D1 /* Supporting Files */,
+				BE48E16083279D04FE0618DC /* PEffect.m */,
+				BE48E227A915D666F7D40B37 /* PEffect.h */,
+				BE48E93842BACE838C368386 /* PPath.m */,
+				BE48EB01BBF7EA81D686E4B7 /* PPath.h */,
 			);
 			path = PButton;
 			sourceTree = "<group>";
@@ -277,6 +292,9 @@
 				9CE2A20B17A1227000D317D1 /* main.m in Sources */,
 				9CE2A20F17A1227000D317D1 /* AppDelegate.m in Sources */,
 				9CE2A21E17A1227000D317D1 /* ViewController.m in Sources */,
+				9CE2A23E17A1229A00D317D1 /* PButton.m in Sources */,
+				BE48EBACE0E91D6B64A4D0EA /* PEffect.m in Sources */,
+				BE48EBD7CFB74BFE5213A0E2 /* PPath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
