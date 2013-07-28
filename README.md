@@ -24,3 +24,4 @@ Button which able to have different visual effects for different state, inner sh
         ]];
 ```
 Will create a button like this:
+![example.png](example.png)
