@@ -1,6 +1,8 @@
 PButton
 =======
 
+The project is dead, flat style eliminate the needs of the lib.
+
 Button which able to have different visual effects for different state, inner shadow, outer shadow, gradient etc.
 
 ```
